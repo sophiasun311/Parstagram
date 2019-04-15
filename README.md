@@ -51,3 +51,4 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <a href="https://cl.ly/cdfc2f597373" target="_blank"><img src="https://d3r69eeiwn2k86.cloudfront.net/items/3I281C1H3P050W1s272W/Screen%20Recording%202019-04-15%20at%2009.43%20AM.gif" style="display: block;height: auto;width: 100%;"/></a>
+<a href="https://cl.ly/482cf48d434e" target="_blank"><img src="https://d3r69eeiwn2k86.cloudfront.net/items/1X142M1O1I440D1m0k0A/Screen%20Recording%202019-04-15%20at%2009.45%20AM.gif" style="display: block;height: auto;width: 100%;"/></a>
