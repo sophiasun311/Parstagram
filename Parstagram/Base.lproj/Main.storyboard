@@ -107,8 +107,8 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qm9-sD-JRP">
-                                                    <rect key="frame" x="28" y="462" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="28" y="462" width="44.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -136,6 +136,41 @@
                                             <outlet property="captionLabel" destination="QKs-Pm-6ma" id="Yd4-bY-nNG"/>
                                             <outlet property="photoView" destination="Hjt-Av-2iR" id="ZKA-wz-UaO"/>
                                             <outlet property="usernameLabel" destination="Qm9-sD-JRP" id="AFt-Sr-eIP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="n80-Ag-5FR" customClass="CommentCell" customModule="Parstagram" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="559" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n80-Ag-5FR" id="iLZ-Tm-F3H">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNs-3G-40a">
+                                                    <rect key="frame" x="29" y="8" width="44.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="default comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ON-aH-iP7">
+                                                    <rect key="frame" x="81.5" y="8" width="130" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fNs-3G-40a" firstAttribute="leading" secondItem="iLZ-Tm-F3H" secondAttribute="leading" constant="29" id="1Pd-8m-i9L"/>
+                                                <constraint firstItem="7ON-aH-iP7" firstAttribute="leading" secondItem="fNs-3G-40a" secondAttribute="trailing" constant="8" id="1h8-e2-Inx"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7ON-aH-iP7" secondAttribute="trailing" constant="8" id="4Vd-zV-8Kz"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="fNs-3G-40a" secondAttribute="bottom" constant="8" id="K0l-5E-NHD"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="7ON-aH-iP7" secondAttribute="bottom" constant="8" id="NdG-7U-oeW"/>
+                                                <constraint firstItem="fNs-3G-40a" firstAttribute="top" secondItem="iLZ-Tm-F3H" secondAttribute="top" constant="8" id="uiu-RJ-U5s"/>
+                                                <constraint firstItem="7ON-aH-iP7" firstAttribute="top" secondItem="iLZ-Tm-F3H" secondAttribute="top" constant="8" id="z00-kM-hLd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="7ON-aH-iP7" id="vvI-du-Giq"/>
+                                            <outlet property="nameLabel" destination="fNs-3G-40a" id="rpj-Pb-Uh3"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
